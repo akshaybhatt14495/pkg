@@ -2,6 +2,17 @@
 
 
 [[projects]]
+  branch = "master"
+  digest = "1:cc143f7b27df2a52be0c86e1f978a531a954ab45873132e74a52d9a31c9476a6"
+  name = "github.com/argoproj/pkg"
+  packages = [
+    "errors",
+    "rand",
+  ]
+  pruneopts = "UT"
+  revision = "9b858eff18a1dbe08ce4181149f798c183ffabc5"
+
+[[projects]]
   digest = "1:2f4793cec0bda63dfdf68fc33f3c638b94b4b8fff5000fbca34806f3a3bd9a92"
   name = "github.com/aws/aws-sdk-go"
   packages = [
@@ -612,6 +623,8 @@
   analyzer-name = "dep"
   analyzer-version = 1
   input-imports = [
+    "github.com/argoproj/pkg/errors",
+    "github.com/argoproj/pkg/rand",
     "github.com/aws/aws-sdk-go/aws",
     "github.com/aws/aws-sdk-go/aws/credentials/stscreds",
     "github.com/aws/aws-sdk-go/aws/session",
