@@ -1,0 +1,49 @@
+module github.com/akshaybhatt14495/pkg
+
+go 1.13
+
+require (
+	github.com/argoproj/pkg v0.0.0-20200424003221-9b858eff18a1
+	github.com/aws/aws-sdk-go v1.25.50
+	github.com/davecgh/go-spew v1.1.0
+	github.com/dustin/go-humanize v1.0.0
+	github.com/go-ini/ini v1.38.1
+	github.com/gogo/protobuf v1.1.1
+	github.com/golang/protobuf v1.3.4
+	github.com/google/go-cmp v0.3.1
+	github.com/google/gofuzz v0.0.0-20170612174753-24818f796faf
+	github.com/googleapis/gnostic v0.2.0
+	github.com/grpc-ecosystem/grpc-gateway v1.13.0
+	github.com/hashicorp/golang-lru v0.5.1
+	github.com/imdario/mergo v0.3.6
+	github.com/inconshreveable/mousetrap v1.0.0
+	github.com/jmespath/go-jmespath v0.0.0-20180206201540-c2b33e8439af
+	github.com/json-iterator/go v0.0.0-20180701071628-ab8a2e0c74be
+	github.com/minio/minio-go v6.0.5+incompatible
+	github.com/mitchellh/go-homedir v0.0.0-20180801233206-58046073cbff
+	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd
+	github.com/modern-go/reflect2 v0.0.0-20180701023420-4b7aa43c6742
+	github.com/pkg/errors v0.8.0
+	github.com/pmezard/go-difflib v1.0.0
+	github.com/sirupsen/logrus v1.0.6
+	github.com/spf13/cobra v0.0.3
+	github.com/spf13/pflag v1.0.1
+	github.com/stretchr/testify v1.2.2
+	golang.org/x/crypto v0.0.0-20180723164146-c126467f60eb
+	golang.org/x/net v0.0.0-20180731172858-49c15d80dfbc
+	golang.org/x/oauth2 v0.0.0-20181017192945-9dcd33a902f4
+	golang.org/x/sys v0.0.0-20180727230415-bd9dbc187b6e
+	golang.org/x/text v0.3.0
+	golang.org/x/time v0.0.0-20180412165947-fbb02b2291d2
+	google.golang.org/appengine v1.2.0
+	google.golang.org/genproto v0.0.0-20200226201735-46b91f19d98c
+	google.golang.org/grpc v1.27.1
+	gopkg.in/inf.v0 v0.9.1
+	gopkg.in/yaml.v2 v2.2.1
+	k8s.io/api v0.0.0-20190620073856-dcce3486da33
+	k8s.io/apimachinery v0.16.5-beta.1
+	k8s.io/client-go v0.0.0-20191029021442-5f2132fc4383
+	k8s.io/klog v0.3.3
+	k8s.io/utils v0.0.0-20190607212802-c55fbcfc754a
+	sigs.k8s.io/yaml v1.1.0
+)
