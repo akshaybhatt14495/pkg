@@ -3,7 +3,7 @@ module github.com/akshaybhatt14495/pkg
 go 1.13
 
 require (
-	github.com/akshaybhatt14495/minio-go v1.0.6
+	github.com/akshaybhatt14495/minio-go v1.0.7
 	github.com/argoproj/pkg v0.0.0-20200424003221-9b858eff18a1
 	github.com/aws/aws-sdk-go v1.25.50
 	github.com/dustin/go-humanize v1.0.0
