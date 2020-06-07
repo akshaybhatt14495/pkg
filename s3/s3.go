@@ -9,8 +9,8 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/credentials/stscreds"
 	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/minio/minio-go"
-	"github.com/minio/minio-go/pkg/credentials"
+	"github.com/akshaybhatt14495/minio-go"
+	"github.com/akshaybhatt14495/minio-go/pkg/credentials"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 )
